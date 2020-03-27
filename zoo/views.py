@@ -9,9 +9,11 @@ def zoo_home(request):
 def zoo_user_create(request):
     if request.method == 'POST':
         form = ZooUserForm(request.POST)
-        if form.is_valid:
+        # if form.is_valid and request.POST['first_name'].isalpha():
+        if form.is_valid():
             user = form.save()
             return redirect('zoo_home')
+        
     else:
         form = ZooUserForm()
         return render(request, 'zoo_user_form.html', {'form': form})
