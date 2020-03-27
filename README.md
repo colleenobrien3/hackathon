@@ -21,6 +21,7 @@ With more time, here is what we'd like to do next:
 1. Change re-direct page when user enters incorrect data
 1. Create newsletter model in our database and have the information posted to our website
 1. CSS and UI in general
+1. Finish deploying
 
 ### Authors
 
