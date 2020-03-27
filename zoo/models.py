@@ -10,9 +10,9 @@ class ZooUser(models.Model):
     def __str__(self):
         return self.name
 
-class Newsletter(models.Model):
-    title = models.CharField(max_length=100)
-    content = models.TextField()
+# class Newsletter(models.Model):
+#     title = models.CharField(max_length=100)
+#     content = models.TextField()
 
-    def __str__(self):
-        return self.title
+#     def __str__(self):
+#         return self.title
