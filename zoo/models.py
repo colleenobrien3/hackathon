@@ -9,7 +9,7 @@ from django.core.exceptions import ValidationError
 from django.utils.translation import gettext_lazy as _
 
 def validate_name(name):
-    if name.isalpha():
+    if not name.isalpha():
         raise ValidationError(
             _('%(name)s contains something other than letters'),
             params={'name': name},
