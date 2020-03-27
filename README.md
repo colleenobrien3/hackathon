@@ -1,6 +1,6 @@
 # Hackathon!
 
-This is out project created in one day for our SEI35 cohort at General Assembly. 
+This is our project created in one day for the SEI35 cohort at General Assembly. 
 
 To get this project running on your computer:
 1. Clone this repo.
@@ -18,13 +18,20 @@ To get this project running on your computer:
 1. "As the business, to be able to see the data being collected from newsletter sign-ups on an account dashboard", open a browser to `http://127.0.0.1:8000/admin/zoo/zoouser/`
 
 With more time, here is what we'd like to do next:
-1. Change re-direct page when user enters incorrect data. 
-1. Create newsletter model in our database to have the information posted to our website.
+1. Change re-direct page when user enters incorrect data
+1. Create newsletter model in our database and have the information posted to our website
 1. CSS and UI in general
 
+### Authors
+
+Colleen O'Brien and Sara Laffin
+
+#### Inspiration
+
+Tiger King, for the email addresss idea :)
 
 
-See Project requirements below, as provided by GA:
+Project requirements are listed below, as provided by GA:
 
 ## Project Overview
 Your team's assignment is to create a way for users to sign up to recieve your client's newsletter via email.
