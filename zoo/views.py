@@ -15,7 +15,8 @@ def zoo_user_create(request):
             user = form.save()
             ezgmail.send(user.email, 'Newsletter Confirmation', 'You are now signed up for the Smithsonian Zoo newsletter.')
             return redirect('zoo_home')
-        
+        else:
+            return render(request, 'zoo_user_form_invalid.html')
     else:
         form = ZooUserForm()
         return render(request, 'zoo_user_form.html', {'form': form})

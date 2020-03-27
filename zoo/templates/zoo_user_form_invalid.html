@@ -1,0 +1,13 @@
+{% extends 'zoo_user_form.html' %} {% block content %}
+<h1>The previous data entered was not valid! Please try again.</h1>
+<ul>
+  <li>A first and last name is required</li>
+  <li>A name cannot contain a number</li>
+  <li>A name cannot contain a special character</li>
+  <li>A name must be at least two letters</li>
+  <li>As the business, I want the user to provide their email address</li>
+  <li>An email address is required</li>
+  <li>An email address must contain exactly one @</li>
+  <li>An email address must contain at least one period (.)</li>
+</ul>
+{% endblock %}
